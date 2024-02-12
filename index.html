@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnassBandit's Ordering App</title>
+</head>
+<body>
+    <script src="index.js" type="module"></script>
+    <section id="banner"></section>
+        <div id="banner-div">
+        <h1>Anass Resto</h1>
+        </div>
+    
+    
+    <div id="container-bloc">
+        <section id="container">
+
+        </section>
+            
+        <!-- innerHTML code goes here -->
+            
+        <!-- end of innerHTML code -->
+
+
+    </div>
+
+    <h3>Order summary</h3>
+
+    <div class="order-summary">
+        <div class="items">
+            <ul id="orders-list">
+            </ul>
+        </div>
+
+        <div class="prices">
+            <ul id="order-price">
+            </ul>
+        </div>
+        
+    </div>
+    <h4 id="total-check">Total: <span id="total-checkout"></span></h4>
+
+<div class="checkout-buttons">
+    <button class="clearbtn" data-clear="data-clear">Clear</button>
+    <button class="checkoutbtn" data-checkout="data-checkout">Checkout !</button>
+</div>
+
+<div id="payment-form">
+    
+    <div id="close-btn">
+        <a href="" class="anchor-close" id="close-popup" data-close="close">X</a>
+    </div>
+
+    <h3 id="total-order-popup">Total order : <span id="total-checkout-x"></span></h3>
+    
+    <form id="form-flex">
+        
+        <input type="text" id="fname" placeholder="Enter your name" required>
+
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <div class="cvv-div">
+            
+            <input type="text"
+                    inputmode="numeric" 
+                    id="cc" 
+                     
+                    required
+                    minlength="4"
+                    maxlength="4">
+
+                    <input type="text" 
+                    inputmode="numeric" 
+                    id="cc" 
+                     
+                    required
+                    minlength="4"
+                    maxlength="4">
+            
+                    <input type="text" 
+                    inputmode="numeric" 
+                    id="cc" 
+                    
+                    required
+                    minlength="4"
+                    maxlength="4">
+
+                    <input type="text"
+                    inputmode="numeric"  
+                    id="cc" 
+                     
+                    required
+                    minlength="4"
+                    maxlength="4">
+        </div>
+        
+
+        <input type="password" 
+        id="cvv" 
+        placeholder="CVV" 
+        required
+        maxlength="3">
+
+        <input type="date" id="expiration" placeholder="Enter expiration date" required>
+
+        <input type="submit" class="submit-btn" data-submit="submit">
+
+        
+    </form>
+</div>
+
+
+
+    
+
+
+    
+        
+</body>
+</html>
